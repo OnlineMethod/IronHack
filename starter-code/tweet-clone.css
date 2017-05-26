@@ -1,3 +1,107 @@
 body {
-  background-color: 244,248,249
+  background-color: rgb(244, 248, 249);
+  font-family: Helvetica;
+}
+
+.border {
+bottom: 20px;
+height: 250px;
+width: 800px;
+border: 2px solid black;
+border-radius: 8px;
+background-color: rgb(255, 255, 255);
+border-color:rgb(225, 232, 237);
+}
+.head {
+background-color: rgb(244, 248, 249);
+}
+.body {
+
+}
+
+#words1 {
+  font:rgb(101, 116, 127);
+}
+
+#check {
+position:relative;
+left:70px;
+bottom:30px;
+
+}
+#name {
+position:relative;
+left: 120px;
+bottom: 90px;
+font-size: 25px;
+color:rgb(104, 109, 129);
+
+}
+
+#jack {
+  position:relative;
+  left: 10px;
+  bottom: 30px;
+
+}
+#avatar {
+position:relative;
+padding-left:15px;
+padding-top: 15px;
+}
+#bottom {
+  position:relative;
+  padding-left:40px;
+  bottom: 40px;
+
+}
+
+#words {
+  position:relative;
+  padding-left: 40px;
+  bottom: 60px;
+  color:rgb(0, 0, 0);
+}
+
+#at {
+  position:relative;
+  left: 40px;
+  bottom: 55px;
+  color:rgb(0, 0, 0);
+  font-size: 20px;
+}
+
+#retweet {
+  position:relative;
+  bottom: 46px;
+  left: 3px;
+  color:rgb(105, 120, 130);
+}
+#favorite {
+  position:relative;
+  left: 3px;
+  bottom: 46px;
+  color:rgb(105, 120, 130);
+}
+
+.button {
+  background-color: rgb(255, 255, 255);
+  position:relative;
+  float:right;
+  height: 50px;
+  bottom: 260px;
+  width: 160px;
+  border: 2px solid rgb(85, 172, 238);
+  border-radius: 10px;
+  margin-right: 10px;
+  text-align:center;
+}
+#bottom2 {
+display:inline;
+color:rgb(85, 172, 238);
+font-size: 22px;
+font-weight:bold;
+
+}
+#bottom3 {
 }
